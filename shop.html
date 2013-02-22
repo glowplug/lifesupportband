@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+            }
+        </style>
+        
+        <!-- Included Style Sheets -->
+        
+        <link rel="stylesheet" href="css/main.css">
+		<link href="css/lightbox.css" rel="stylesheet" />
+		
+        <!-- Included Java Scripts -->
+        
+		<script src="js/vendor/jquery-1.7.2.min.js"></script>
+		<script src="js/lightbox.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    
+        <!-- Start of the main page -->
+
+    <body>
+
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Life Support Band</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="index.html">Home</a></li>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="index.html">Contact</a></li>
+                            </li>
+                        </ul>
+
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+			<div class="container">
+
+				<ul class="products">
+					<li>
+							<img src="gallery/cd1.gif" class="img-shop">
+							<h5>Buy It, You'll Like It $7</h5>
+							<form action="/charge" method="post">
+							<script
+							  src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+							  data-key="pk_test_pv1rQdPWQqWb5AJWgg9MnUKZ"
+							  data-amount="700"
+							  data-name="Buy It, You'll Like It"
+							  data-description="1x CD ($7.00)"
+							  data-image="gallery/cd1-thumb.jpg">
+							</script>
+							</form>
+					</li>
+					<li>
+							<img src="gallery/cd2.jpg" class="img-shop">
+							<h5>Vermillion Sunsets $7</h5>
+							<form action="/charge" method="post">
+							<script
+							  src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+							  data-key="pk_test_pv1rQdPWQqWb5AJWgg9MnUKZ"
+							  data-amount="700"
+							  data-name="Vermillion Sunsets"
+							  data-description="1x CD ($7.00)"
+							  data-image="gallery/cd2-thumb.jpg">
+							</script>
+							</form>
+
+					</li>
+					<li>
+							<img src="gallery/cd3.jpg" class="img-shop">
+							<h5>Robert "Bubba" Grundner $7</h5>
+							<form action="/charge" method="post">
+							<script
+							  src="https://checkout.stripe.com/v2/checkout.js" class="stripe-button"
+							  data-key="pk_test_pv1rQdPWQqWb5AJWgg9MnUKZ"
+							  data-amount="700"
+							  data-name="Robert "Bubba" Grundner"
+							  data-description="1x CD ($7.00)"
+							  data-image="gallery/cd3-thumb.jpg">
+							</script>
+							</form>
+					</li>
+				</ul>
+
+            </div>
+
+            <hr>
+            
+			<!-- Site footer -->
+			
+            <footer>
+                <p>All Rights Reserved - Life Support Band 2013</p>
+            </footer>
+
+        </div> <!-- /container -->
+
+
+		<!-- Included Java Scripts -->
+		
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+        
+    </body>
+</html>
